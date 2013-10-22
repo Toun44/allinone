@@ -27,7 +27,7 @@ public class ServletJsp extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		//call jsp file
-		this.getServletContext().getRequestDispatcher( "/WEB-INF/jsp/jspservlet.jsp" ).forward( request, response ); 
+		this.getServletContext().getRequestDispatcher( "/WEB-INF/view/jsp/jspservlet.jsp" ).forward( request, response ); 
 	}
 
 	/**

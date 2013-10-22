@@ -9,8 +9,8 @@
   <jsp-config>
 	<jsp-property-group>
 		<url-pattern>*.jsp</url-pattern>
-		<include-prelude>/WEB-INF/jsp/includeBeforeJsp.jsp</include-prelude>
-		<include-coda>/WEB-INF/jsp/includeAfterJsp.jsp</include-coda>
+		<include-prelude>/WEB-INF/view/jsp/includeBeforeJsp.jsp</include-prelude>
+		<include-coda>/WEB-INF/view/jsp/includeAfterJsp.jsp</include-coda>
 	</jsp-property-group> 
   </jsp-config>
   
