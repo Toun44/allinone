@@ -6,13 +6,21 @@
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
   
+  <jsp-config>
+	<jsp-property-group>
+		<url-pattern>*.jsp</url-pattern>
+		<include-prelude>/WEB-INF/jsp/includeBeforeJsp.jsp</include-prelude>
+		<include-coda>/WEB-INF/jsp/includeAfterJsp.jsp</include-coda>
+	</jsp-property-group> 
+  </jsp-config>
+  
   <servlet-mapping>
     <servlet-name>ServletJsp</servlet-name>
-    <url-pattern>/srv</url-pattern>
+    <url-pattern>/servlet.jsp</url-pattern>
   </servlet-mapping>
   
   <servlet>
     <servlet-name>ServletJsp</servlet-name>
-    <servlet-class>org.ingesup.messaging.ServletJsp</servlet-class>
+    <servlet-class>org.ingesup.messaging.servlets.ServletJsp</servlet-class>
   </servlet>
 </web-app>

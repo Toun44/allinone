@@ -1,4 +1,4 @@
-package org.ingesup.messaging;
+package org.ingesup.messaging.servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -25,6 +25,8 @@ public class ServletJsp extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		//call jsp file
 		this.getServletContext().getRequestDispatcher( "/WEB-INF/jsp/jspservlet.jsp" ).forward( request, response ); 
 	}
 
