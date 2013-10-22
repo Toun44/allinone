@@ -10,7 +10,6 @@
     <servlet-name>ServletJsp</servlet-name>
     <url-pattern>/srv</url-pattern>
   </servlet-mapping>
-    
   
   <servlet>
     <servlet-name>ServletJsp</servlet-name>

@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
- index Jsp file
+
+	<h1> Index Jsp</h1>
+	
+	<a href="srv"> Servlet qui appel une jps page</a>
+	
+	
+
 </body>
 </html> 
